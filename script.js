@@ -162,6 +162,7 @@ for (const detail of detailsList) {
   });
 }
 elOrderForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("Sizning buyurtmangiz qabul qilindi");
+    e.preventDefault();
+
+    alert("Sizning buyurtmangiz qabul qilindi!");
 });
