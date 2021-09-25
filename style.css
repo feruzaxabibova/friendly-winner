@@ -1,0 +1,149 @@
+
+
+  .order__choose-size-text {
+    border: 1px solid rgb(139, 139, 139);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+    background-image: url("./img/newpitsa.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .order__choose-size-label {
+    margin-right: 10px;
+  }
+
+  .order__choose-size-input:checked + .order__choose-size-text {
+    box-shadow: 0px 0px 5px 3px rgba(102, 98, 97, 0.8);
+  }
+
+  .order__choose-mix-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .order__choose-mix-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+/* 
+  .order__choose-mix-clone {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-right: 5px;
+  } */
+
+  /* .order__choose-mix-label {
+    display: flex;
+    align-items: center;
+    max-width: 45%;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+  } */
+
+  /* .order__choose-mix-input:checked + .order__choose-mix-clone {
+    background-color: darkorange;
+  } */
+
+  .order__choose-details-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .order__choose-detail-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  /* .order__choose-detail-clone {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-right: 5px;
+  } */
+
+  .order__choose-detail-label {
+    display: flex;
+    align-items: center;
+    max-width: 45%;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .order__choose-detail-input:checked + .order__choose-detail-clone {
+    background-color: darkorange;
+  }
+
+  .order__result-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .order__result-wrapper-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .order__result-wrapper-result {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+  .mix-result {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+  .mix-result__item {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+  }
+  .details-result {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+  .details-result__item {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+  }
+  .order__button {
+    display: block;
+    background-color: tomato;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
