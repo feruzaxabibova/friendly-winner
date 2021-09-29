@@ -12,7 +12,7 @@ let elMixResult = document.querySelector(".mix-result");
 let elDetailsResult = document.querySelector(".details-result");
 
 //Bu malumotlar keyinchalik beckenddan keladi
-let breadList = ["yupqa", "qalin", "bolka"];
+let breadList = ["yupqa", "qalin", "o`rta"];
 let sizeList = ['25 cm', '30 cm', '35 cm'];
 let mixList = ["Pomidor", "Kurka goshti", "zaytun", "Kurka go`shti", "Tuzlangan bodiring", "Qazi"];
 let detailsList = ["Achchiq", "Sosiskali"];
